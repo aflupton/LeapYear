@@ -1,7 +1,7 @@
-using System;
 using System.Collections.Generic;
+using System;
 
-namespace LeapYear
+namespace LeapYear.Models
 {
   public class LeapYear
   {
