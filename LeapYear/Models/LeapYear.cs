@@ -15,9 +15,13 @@ namespace LeapYear
       {
         return false;
       }
+      else if (year % 4 == 0)
+      {
+        return true;
+      }
       else
       {
-        return year % 4 == 0;
+        return false;
       }
     }
   }
